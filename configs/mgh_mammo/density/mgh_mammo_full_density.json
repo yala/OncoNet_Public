@@ -1,0 +1,32 @@
+{
+     "search_space": {
+          "batch_size": [32],
+          "cuda": [true],
+          "dataset": ["mgh_mammo_full_density"],
+          "dropout": [0.25, 0.4],
+          "epochs": [100],
+          "img_dir": ["/scratch1/mammosprint"],
+          "get_dataset_stats": [false],
+          "img_mean": [7662.576866173061],
+          "img_std": [12594.148555576781],
+          "img_size": [[256, 256]],
+          "init_lr": [1e-05, 1e-4],
+          "cluster_exams": [true],
+          "metadata_dir": ["/home/administrator/Mounts/Isilon/metadata"],
+          "model_name": ["resnet18"],
+          "num_chan": [3],
+          "num_workers": [20],
+          "objective": ["cross_entropy"],
+          "optimizer": ["adam"],
+          "patience": [10],
+          "plot_losses": [false],
+          "pretrained_on_imagenet": [true],
+          "run_prefix": ["snapshot"],
+          "save_dir": ["snapshot"],
+          "train": [true],
+          "test": [true],
+          "image_transformers": [["scale_2d rand_hor_flip rand_ver_flip rotate_90 rotate_range/max=10/min=-10"]],
+          "tensor_transformers": [["force_num_chan_2d normalize_2d"]]
+     },
+     "available_gpus":[1,2,3,4]
+}

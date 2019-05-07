@@ -1,0 +1,13 @@
+http://download.pytorch.org/whl/cu90/torch-0.3.1-cp36-cp36m-linux_x86_64.whl
+torchvision==0.2.0
+sklearn
+scipy
+numpy==1.14.1
+twilio
+Pillow
+tqdm
+mock
+statsmodels
+scikit-image
+imageio
+gitpython
