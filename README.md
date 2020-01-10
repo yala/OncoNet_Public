@@ -4,6 +4,7 @@
 This repository was used to develop the models described in:
 
 - [A Deep Learning Mammography-Based Model for Improved Breast Cancer Risk Prediction](https://pubs.rsna.org/doi/)
+- [A Deep Learning Model to Triage Screening Mammograms: A Simulation Study](https://pubs.rsna.org/doi/10.1148/radiol.2019182908)
 - [Mammographic Breast Density Assessment Using
 Deep Learning: Clinical Implementation](https://pubs.rsna.org/doi/10.1148/radiol.2018180694)
 
